@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding:28px 280px;
+  align-items: center;
+}
+
+.menu-page{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.menu-page li a{
+  text-decoration: none;
+  color: black;
+}
+
+.button-link{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    width: fit-content;
+}
