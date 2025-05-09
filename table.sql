@@ -12,5 +12,5 @@ create table if not exists contact_form(
 	email varchar(255) not null,
   phone varchar(255) not null,
   subject varchar(255) not null,
-  message varchar(255) not null
+  message text not null
 );

@@ -8,6 +8,7 @@ const letItem = [
 
 let elementChart = [];
 let cartList = [];
+
 document.addEventListener("DOMContentLoaded", () => {
   renderCart();
 });
@@ -103,12 +104,6 @@ function cancelDialog() {
   const elementDialog = document.getElementById("alert-dialog");
   elementDialog.innerHTML = "";
 }
-
-// function deleteItem(index) {
-//   cartList = cartList.filter((item, i) => index !== i);
-
-//   renderCartList();
-// }
 
 function addToCart(index) {
   elementChart.push(index);
