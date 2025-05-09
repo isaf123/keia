@@ -108,10 +108,8 @@ function cancelDialog() {
 function addToCart(index) {
   elementChart.push(index);
   cartList.push(letItem[index]);
+  totalPirce += letItem[index].price;
   renderCart();
-  cartList.forEach((item) => {
-    totalPirce += item.price;
-  });
   renderCartList();
   console.log(totalPirce);
 }
