@@ -13,38 +13,23 @@
 </head>
 
 <body>
-  <header>
-    <nav class="shadow-md">
-      <h3>KEIA</h3>
-      <div class="menu-page">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="product.html">Products</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="register.html">Register</a></li>
 
-      </div>
-    </nav>
-  </header>
+  <div class="fixed z-50 inset-0 flex items-center justify-center bg-white ">
 
-  <div class="mt-20 flex items-center justify-center ">
-    <form action="login_control.php" method="post" class="w-[600px]">
+    <form action="contact_control.php" method="post" class="w-[600px]">
       <h2 class="text-2xl font-bold mb-8 w-full text-center">Message Form</h2>
       <div class="flex gap-8 mb-4 w-full">
         <div class="flex-1">
-          <label for="first-name" class=" font-semibold mb-1">First Name</label>
+          <label for="first_name" class=" font-semibold mb-1">First Name</label>
           <input
-            name="first-name"
+            name="first_name"
             type="text"
             class="border  border-gray-300 border-input bg-background text-sm rounded-md px-3 py-2 shadow-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring w-full" />
-
         </div>
         <div class="flex-1">
-          <label for="last-name" class=" font-semibold mb-1">Last Name</label>
+          <label for="last_name" class=" font-semibold mb-1">Last Name</label>
           <input
-            name="last-name"
+            name="last_name"
             type="text"
             class="border border-gray-300 border-input bg-background text-sm rounded-md px-3 py-2 shadow-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring w-full" />
         </div>
@@ -69,7 +54,8 @@
         class="border mb-4 border-gray-300 border-input bg-background text-sm rounded-md px-3 py-2 shadow-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring w-full" />
 
       <label for="message" class=" font-semibold mb-1">Message</label>
-      <textarea name="" id="" class="h-[120px] border mb-4 border-gray-300 border-input bg-background text-sm rounded-md px-3 py-2 shadow-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring w-full"></textarea>
+      <textarea name="message" id="" class="h-[120px] border mb-4 border-gray-300 border-input bg-background text-sm rounded-md px-3 py-2 shadow-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring w-full"></textarea>
+
       <button type="submit" class="px-4 py-3 w-full bg-black text-white rounded-md cursor-pointer">Continue</button>
     </form>
 
